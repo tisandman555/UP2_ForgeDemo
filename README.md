@@ -9,7 +9,7 @@ This is a skeleton sample to demo the connection of [Intel Up2 Grove board](http
 
 ## Setup
 1. For using this sample, you need an Autodesk developer credentials. Visit the [Forge Developer Portal](https://developer.autodesk.com), sign up for an account, then [create an app](https://developer.autodesk.com/myapps/create). Finally make a copy of client id and client secret. 
-2. Please use other ways to translate the source model to the format for Forge Viewer in advance. Get the model base64 urn.
+2. Please use other ways to translate the source model to the format for Forge Viewer in advance. Get the model base64 urn. The model in this demo is currently using [rac_advanced_sample_project.rvt](https://knowledge.autodesk.com/support/revit-products/getting-started/caas/CloudHelp/cloudhelp/2019/ENU/Revit-GetStarted/files/GUID-61EF2F22-3A1F-4317-B925-1E85F138BE88-htm.html)
 
 ### 1. Setup UP2 board as IoT Client
 You can use UP2 as the IoT client in this demo
