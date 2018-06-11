@@ -52,4 +52,4 @@ Afterwards, you should see your app displayed in your browser:
 ![](./screenshot.png)
 
 ## Written By
-Caihong Qian, Jianjun Gu, Pei Fanjiang
+Caihong Qian, Jianjun Gu, Fanjiang Pei
