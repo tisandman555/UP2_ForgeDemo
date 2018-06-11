@@ -15,7 +15,7 @@ This is a skeleton sample to demo the connection of [Intel Up2 Grove board](http
 You can use UP2 as the IoT client in this demo
 1. Prepare a Intel Up2 Grove board, and make sure the board has been setup correctly with the guidance of [Step 1: Make Board Connections](https://software.intel.com/en-us/upsquared-grove-getting-started-guide-power-on-board)
 2. Connect Temperature and Humidity sensor to I2C-2, and LCD sensor to I2C-3
-3. Setup the NodeJS runtime of UP2 board, the instruction is here (https://github.com/tisandman555/UP2_JS/blob/master/README.md)
+3. Setup the NodeJS runtime of UP2 board, the instruction is [here](https://github.com/tisandman555/UP2_JS/blob/master/README.md)
 4. The test code is [UP2/Lab4_mqtt_up2.js](https://github.com/tisandman555/UP2_ForgeDemo/blob/master/UP2/Lab4_mqtt_up2.js)
 
 ### 2. Setup PC as IoT Client
