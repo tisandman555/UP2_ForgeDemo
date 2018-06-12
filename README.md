@@ -42,14 +42,13 @@ You can use PC as the IoT client in this demo
         set FORGE_CLIENT_ID=<<YOUR CLIENT ID FROM FORGE DEVELOPER PORTAL>>
         set FORGE_CLIENT_SECRET=<<YOUR FORGE CLIENT SECRET>>
 
-2. In [www\js\index.js](www\js\index.js), replace the testdbid with your own demo dbid.
-3. Run the project(, it will open up a browser page with the model loaded in the page. http://localhost:3000
-4. Click *start web socket* in http://localhost:300, you will see the value of timeline and chart will be changed based on the data from Intel board, and also the window objects will change the color with the data from device.
+2. In [www\js\index.js](www\js\index.js), replace the documentID with your own demo documentID.
+3. Run the project `node server.js`, open up a browser page, and fill http://localhost:3000 at the address bar. Then the model loaded in the page.
+4. Click *start web socket* in http://localhost:3000, you will see the value of timeline and chart will be changed based on the data from Intel board, and also the window objects will change the color with the data from device.
 5. Power **Intel Up2 Grove board**, deploy [UP2/Lab4_mqtt_up2.js](https://github.com/tisandman555/UP2_ForgeDemo/blob/master/UP2/Lab4_mqtt_up2.js) to the board. Run the script with `sudo nodejs Lab4_mqtt_up2.js`
 6. Or run `node Lab4_room310.js` on your PC, the file is from here [UP2/Lab4_room310.js](https://github.com/tisandman555/UP2_ForgeDemo/blob/master/UP2/Lab4_room310.js)
 
-Afterwards, you should see your app displayed in your browser:
-![](./screenshot.png)
+Afterwards, you should see the model in your browser responsing the sensor info (the color of the window is shown in Green or Red)
 
 ## Written By
 Caihong Qian, Jianjun Gu, Fanjiang Pei
