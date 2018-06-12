@@ -30,6 +30,8 @@ You can use PC as the IoT client in this demo
 
 ## Local Test
 
+### Start server
+
 1. Set enviroment variables of Forge credentials or hard-coded the credentials in [credentials.js]. 
 
     Mac OSX/Linux (Terminal). 
@@ -45,6 +47,7 @@ You can use PC as the IoT client in this demo
 2. In [www\js\index.js](www\js\index.js), replace the documentID with your own demo documentID.
 3. Run the project `node server.js`, open up a browser page, and fill http://localhost:3000 at the address bar. Then the model loaded in the page.
 4. Click *start web socket* in http://localhost:3000, you will see the value of timeline and chart will be changed based on the data from Intel board, and also the window objects will change the color with the data from device.
+### Start clients
 5. Power **Intel Up2 Grove board**, deploy [UP2/Lab4_mqtt_up2.js](https://github.com/tisandman555/UP2_ForgeDemo/blob/master/UP2/Lab4_mqtt_up2.js) to the board. Run the script with `sudo nodejs Lab4_mqtt_up2.js`
 6. Or run `node Lab4_room310.js` on your PC, the file is from here [UP2/Lab4_room310.js](https://github.com/tisandman555/UP2_ForgeDemo/blob/master/UP2/Lab4_room310.js)
 
